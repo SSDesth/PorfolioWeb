@@ -1,0 +1,96 @@
+/* ========== Componentes Generales ========== */
+	.Grid-2{
+		width: 80%;
+		margin-left: 10%;
+		display: grid;
+		grid-template-columns:  1fr 1fr ;
+		grid-gap: 30px; 	
+
+	}
+
+/* ========== About ========== */
+	.header{
+		height: 100vh;
+		/*background: linear-gradient(to right, green , black);*/
+	}
+
+	.subContenedor{
+		width: 60%;
+		margin-left: 20%;
+		
+	}
+
+	h1{
+		font-size: 55px;
+	}
+
+	.resaltar{
+	  background: -webkit-linear-gradient(45deg,#09B4D3, #6580CE);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;	
+	 
+	}
+
+
+	.btnHeader {
+		background: linear-gradient(45deg , #09B4D3  , #6580CE );
+		transition:  300ms ease-in-out;
+		color: #F5F5F6;
+		width: 150px;
+	}
+
+	 .btnHeader:hover {
+	    background: transparent;
+	    color: #6580CE;
+	    box-shadow: 0 0 10px 0 #09B4D3 inset, 0 0 10px 4px #6580CE;
+	  }	
+
+/* ========== About ========== */
+	.About{
+		background:linear-gradient(45deg,#09B4D3, #6580CE);
+		color: #F5F5F6;
+		font-size: 20px;
+		
+	}
+	h2{
+		width: 100%;
+		margin-bottom: 35px;
+		font-size: 45px;
+	}
+
+	.imgAbout{
+		max-height: 500px;
+
+	}
+
+	.ABottom{
+		
+		height: 150px;
+	  	border-top: 100px solid transparent;
+	  	border-right: 100vw solid #FFF;
+	  	display: inline-block;
+	  	
+	  	
+	  	
+	}
+	.white{
+		background-color: #FFF;
+		margin-top: -15px;
+	}
+
+
+	.pAbout{
+		
+	}
+
+/* ========== Proyects ========== */
+	.Proyects{
+		width: 60%;
+		margin-left: 20%;
+		display: grid;
+		grid-template-columns:1fr;
+		grid-gap: 30px; 
+		
+	}
+
+

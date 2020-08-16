@@ -1,0 +1,81 @@
+/* ========== Componentes Generales ========== */
+
+  /* ========== Conteneedor Grip de 2 ========== */
+    .Grid-2{
+      width: 80%;
+      margin-left: 10%;
+      display: grid;
+      grid-template-columns:  1fr 1fr ;
+      grid-gap: 30px;   
+
+    }
+
+    .Grid-2-Botones{
+      display: grid;
+      grid-template-columns:  1fr 1fr ;
+      grid-gap: 30px; 
+    }
+
+    .grid-Proyecto{
+        grid-template-columns:  1fr 2fr ;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+
+    @media only screen and (max-width: 1100px) {
+      .Grid-2{
+        grid-template-columns: 1fr; 
+      }
+    }
+
+
+/* ========== BtnInteractivo ========== */
+  .a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #6580CE;
+    border: 2px solid #09B4D3;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+
+  .a span{
+    position: relative;
+    z-index: 2;
+  }
+
+  .a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(45deg , #09B4D3, #6580CE);
+    transition: all .35s;
+  }
+
+  .a:hover{
+    color: #fff;
+  }
+
+  .a:hover:after{
+    width: 100%;
+  }
+
+
+  .imgProyecto{
+    
+    width: 100%;
+    max-width: 600px;
+    min-width: 400px;
+    
+  }
