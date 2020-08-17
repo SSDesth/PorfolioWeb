@@ -27,6 +27,7 @@
       .Grid-2{
         grid-template-columns: 1fr; 
       }
+
     }
 
 
@@ -75,7 +76,9 @@
   .imgProyecto{
     
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
     min-width: 400px;
+
+
     
   }
