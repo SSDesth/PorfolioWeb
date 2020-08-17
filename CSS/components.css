@@ -14,12 +14,15 @@
       display: grid;
       grid-template-columns:  1fr 1fr ;
       grid-gap: 30px; 
+      justify-items: center;
+
     }
 
     .grid-Proyecto{
         grid-template-columns:  1fr 2fr ;
         width: 100%;
         margin-left: 0%;
+
     }
 
 
@@ -27,7 +30,6 @@
       .Grid-2{
         grid-template-columns: 1fr; 
       }
-
     }
 
 
@@ -79,6 +81,28 @@
     max-width: 400px;
     min-width: 400px;
 
+    border: 3px solid;
+    border-image-source: linear-gradient(45deg, #09B4D3, #6580CE);
+    border-image-slice: 1;
+    transition: 1s;
+    margin-top: 5px; 
+  }
 
-    
+  .imgProyecto:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 3px 3px #09B4D3,0 0 5px 5px #6580CE;
+
+  }
+
+  .miBtn{
+    border-color: #F5F5F6;
+    transition: 1s;
+  }
+
+  .miBtn:hover{
+    background-color: #F5F5F6;
+  }
+  .icono{
+    width: 35px;
+    height: 35px;
   }

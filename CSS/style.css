@@ -7,8 +7,11 @@
 		grid-gap: 30px; 	
 
 	}
+	html{
+		scroll-behavior: smooth;
+	}
 
-/* ========== About ========== */
+/* ========== Header ========== */
 	.header{
 		height: 100vh;
 		/*background: linear-gradient(to right, green , black);*/
@@ -78,11 +81,6 @@
 		margin-top: -15px;
 	}
 
-
-	.pAbout{
-		
-	}
-
 /* ========== Proyects ========== */
 	.Proyects{
 		width: 60%;
@@ -91,6 +89,34 @@
 		grid-template-columns:1fr;
 		grid-gap: 30px; 
 		
+	}
+
+
+
+/* ========== Contacto ========== */
+	.aTop{
+		height: 150px;
+	  	border-bottom: 100px solid transparent;
+	  	border-left: 100vw solid #FFF;
+	  	display: inline-block;
+	}
+
+	.Contacto{
+		background:linear-gradient(45deg,#09B4D3, #6580CE);
+		color: #F5F5F6;
+		font-size: 20px;
+		margin-top:45px; 
+	}
+
+	.contenedorContacto{
+		width: 60%;
+     	margin-left: 20%;
+	}
+
+	.subContenedorBotones{
+		display: grid;
+    	grid-template-columns: 1fr 1fr 1fr 1fr ;
+    	grid-gap: 5px;
 	}
 
 
