@@ -1,4 +1,11 @@
 /* ========== Componentes Generales ========== */
+  
+  .Espannol{
+    position: fixed;
+    top: 5px;
+    right: 15px;
+    background-color: #FFF;
+  }
 
   /* ========== Conteneedor Grip de 2 ========== */
     .Grid-2{
